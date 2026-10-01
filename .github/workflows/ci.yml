@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  linux:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential cmake ninja-build \
+            libglfw3-dev libglew-dev libfreetype-dev libharfbuzz-dev \
+            xvfb libgl1-mesa-dri
+
+      - name: Configure
+        run: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-Werror
+
+      - name: Build
+        run: cmake --build build
+
+      - name: Unit tests
+        run: ctest --test-dir build --output-on-failure
+
+      - name: Smoke test (render 120 frames in every language)
+        env:
+          LIBGL_ALWAYS_SOFTWARE: "1"
+        run: |
+          for lang in ru en zh hi es fr de it; do
+            HOME="$RUNNER_TEMP/home-$lang" GP_FIXED_DT=1 xvfb-run -a ./build/gravity_particles --lang "$lang" --particles 20000 --frames 120
+          done
+          ./build/gravity_particles --help --lang hi
