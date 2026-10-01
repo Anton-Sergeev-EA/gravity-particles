@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "code": "en",
+    "name": "English",
+    "english_name": "English",
+    "group_separator": ",",
+    "decimal_separator": ".",
+    "grouping": "3",
+    "group_min_digits": "4"
+  },
+  "app": {
+    "title": "Gravity Particles",
+    "tagline": "Interactive gravity simulation"
+  },
+  "hud": {
+    "fps": "FPS",
+    "particles": "Particles",
+    "sources": "Sources",
+    "paused": "Paused"
+  },
+  "panel": {
+    "title": "Settings",
+    "language": "Language",
+    "simulation": "Simulation",
+    "particles": "Particle count",
+    "gravity": "Gravity strength",
+    "visual": "Visuals",
+    "bloom": "Glow",
+    "size": "Particle size",
+    "palette": "Palette",
+    "actions": "Actions",
+    "hide_hint": "Tab — hide panel",
+    "show": "Settings",
+    "graphics": "Graphics",
+    "quality": "Graphics quality",
+    "trails": "Trails",
+    "lensing": "Gravitational lensing",
+    "cinematic": "Cinematic effects"
+  },
+  "palette": {
+    "cosmic": "Cosmic",
+    "neon": "Neon",
+    "rainbow": "Rainbow",
+    "fire": "Fire"
+  },
+  "quality": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "ultra": "Ultra"
+  },
+  "action": {
+    "explode": "Explode",
+    "clear": "Clear sources",
+    "pause": "Pause",
+    "resume": "Resume",
+    "screenshot": "Screenshot",
+    "fullscreen": "Fullscreen",
+    "windowed": "Windowed",
+    "defaults": "Restore defaults",
+    "help": "Help",
+    "close": "Close"
+  },
+  "key": {
+    "lmb": "Left click",
+    "lmb_hold": "Left drag",
+    "rmb": "Right click",
+    "space": "Space",
+    "esc": "Esc"
+  },
+  "help": {
+    "title": "Controls",
+    "add_source": "Add a gravity source",
+    "drag_source": "Drag the source",
+    "clear": "Clear sources",
+    "explode": "Explode particles",
+    "palette": "Change palette",
+    "pause": "Pause / resume",
+    "panel": "Show / hide settings",
+    "language": "Next language",
+    "screenshot": "Save screenshot",
+    "fullscreen": "Fullscreen mode",
+    "help": "This help",
+    "quit": "Quit",
+    "footer": "Press F1 to open this help again",
+    "hint": "F1 — help · Tab — settings"
+  },
+  "toast": {
+    "language": "Language: {0}",
+    "palette": "Palette: {0}",
+    "paused": "Paused",
+    "resumed": "Simulation resumed",
+    "cleared": "Sources cleared",
+    "defaults": "Settings restored",
+    "screenshot_saved": "Screenshot saved: {0}",
+    "screenshot_failed": "Could not save the screenshot",
+    "particles": "Particles: {0}",
+    "welcome": "Click anywhere to create a gravity source",
+    "quality": "Graphics quality: {0}"
+  },
+  "cli": {
+    "usage": "Usage: {0} [options]",
+    "lang": "interface language ({0})",
+    "particles": "number of particles ({0}–{1})",
+    "fullscreen": "start in fullscreen mode",
+    "list_languages": "list available languages",
+    "version": "show version",
+    "help": "show this help",
+    "unknown_option": "Unknown option: {0}",
+    "bad_value": "Invalid value for {0}: {1}",
+    "unknown_language": "Unknown language: {0}"
+  },
+  "error": {
+    "glfw_init": "Failed to initialize GLFW",
+    "window": "Failed to create the window (OpenGL 3.3 is required)",
+    "glew": "Failed to initialize GLEW",
+    "fatal": "Fatal error: {0}",
+    "assets": "Program resources not found (shaders, locales, fonts folders)"
+  }
+}

@@ -32,31 +32,40 @@ GLuint Shader::compile(GLenum type, const std::string& source, const std::string
 }
 
 Shader::Shader(const std::string& vertPath, const std::string& fragPath) {
-    std::string vertSrc = readFile(vertPath);
-    std::string fragSrc = readFile(fragPath);
-
-    GLuint vs = compile(GL_VERTEX_SHADER, vertSrc, vertPath);
-    GLuint fs = compile(GL_FRAGMENT_SHADER, fragSrc, fragPath);
-
+    GLuint vs = compile(GL_VERTEX_SHADER, readFile(vertPath), vertPath);
+    GLuint fs = compile(GL_FRAGMENT_SHADER, readFile(fragPath), fragPath);
     id = glCreateProgram();
+    link(vs, fs, vertPath + " + " + fragPath);
+}
+
+Shader::Shader(const std::string& vertPath, const std::vector<std::string>& feedbackVaryings) {
+    GLuint vs = compile(GL_VERTEX_SHADER, readFile(vertPath), vertPath);
+    id = glCreateProgram();
+    std::vector<const char*> names;
+    for (const auto& v : feedbackVaryings) names.push_back(v.c_str());
+    // Список выходов задаётся до линковки.
+    glTransformFeedbackVaryings(id, static_cast<GLsizei>(names.size()), names.data(),
+                                GL_INTERLEAVED_ATTRIBS);
+    link(vs, 0, vertPath);
+}
+
+void Shader::link(GLuint vs, GLuint fs, const std::string& debugName) {
     glAttachShader(id, vs);
-    glAttachShader(id, fs);
+    if (fs) glAttachShader(id, fs);
     glLinkProgram(id);
 
     GLint success = 0;
     glGetProgramiv(id, GL_LINK_STATUS, &success);
+    glDeleteShader(vs);
+    if (fs) glDeleteShader(fs);
     if (!success) {
         char log[1024];
         glGetProgramInfoLog(id, sizeof(log), nullptr, log);
-        std::cerr << "[Shader] Ошибка линковки (" << vertPath << " + " << fragPath << "):\n"
-                  << log << std::endl;
-        glDeleteShader(vs);
-        glDeleteShader(fs);
-        throw std::runtime_error("Ошибка линковки шейдерной программы");
+        std::cerr << "[Shader] Ошибка линковки (" << debugName << "):\n" << log << std::endl;
+        glDeleteProgram(id);
+        id = 0;
+        throw std::runtime_error("Ошибка линковки шейдерной программы: " + debugName);
     }
-
-    glDeleteShader(vs);
-    glDeleteShader(fs);
 }
 
 Shader::~Shader() {
@@ -86,6 +95,14 @@ GLint Shader::uniformLoc(const std::string& name) const {
 
 void Shader::setInt(const std::string& name, int value) const {
     glUniform1i(uniformLoc(name), value);
+}
+
+void Shader::setUInt(const std::string& name, unsigned value) const {
+    glUniform1ui(uniformLoc(name), value);
+}
+
+void Shader::setVec4Array(const std::string& name, const float* data, int count) const {
+    if (count > 0) glUniform4fv(uniformLoc(name), count, data);
 }
 
 void Shader::setFloat(const std::string& name, float value) const {

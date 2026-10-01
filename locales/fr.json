@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "code": "fr",
+    "name": "Français",
+    "english_name": "French",
+    "group_separator": "\u202f",
+    "decimal_separator": ",",
+    "grouping": "3",
+    "group_min_digits": "4"
+  },
+  "app": {
+    "title": "Particules gravitationnelles",
+    "tagline": "Simulation gravitationnelle interactive"
+  },
+  "hud": {
+    "fps": "IPS",
+    "particles": "Particules",
+    "sources": "Sources",
+    "paused": "En pause"
+  },
+  "panel": {
+    "title": "Paramètres",
+    "language": "Langue",
+    "simulation": "Simulation",
+    "particles": "Nombre de particules",
+    "gravity": "Force de gravité",
+    "visual": "Rendu visuel",
+    "bloom": "Halo lumineux",
+    "size": "Taille des particules",
+    "palette": "Palette",
+    "actions": "Actions",
+    "hide_hint": "Tab — masquer le panneau",
+    "show": "Paramètres",
+    "graphics": "Graphismes",
+    "quality": "Qualité graphique",
+    "trails": "Traînées",
+    "lensing": "Lentille gravitationnelle",
+    "cinematic": "Effets cinématographiques"
+  },
+  "palette": {
+    "cosmic": "Cosmos",
+    "neon": "Néon",
+    "rainbow": "Arc-en-ciel",
+    "fire": "Feu"
+  },
+  "quality": {
+    "low": "Basse",
+    "medium": "Moyenne",
+    "high": "Haute",
+    "ultra": "Ultra"
+  },
+  "action": {
+    "explode": "Explosion",
+    "clear": "Effacer les sources",
+    "pause": "Pause",
+    "resume": "Reprendre",
+    "screenshot": "Capture d’écran",
+    "fullscreen": "Plein écran",
+    "windowed": "Mode fenêtré",
+    "defaults": "Paramètres par défaut",
+    "help": "Aide",
+    "close": "Fermer"
+  },
+  "key": {
+    "lmb": "Clic gauche",
+    "lmb_hold": "Glisser (clic gauche)",
+    "rmb": "Clic droit",
+    "space": "Espace",
+    "esc": "Échap"
+  },
+  "help": {
+    "title": "Commandes",
+    "add_source": "Ajouter une source de gravité",
+    "drag_source": "Déplacer la source",
+    "clear": "Effacer les sources",
+    "explode": "Explosion de particules",
+    "palette": "Changer de palette",
+    "pause": "Pause / reprise",
+    "panel": "Afficher / masquer les paramètres",
+    "language": "Langue suivante",
+    "screenshot": "Enregistrer une capture d’écran",
+    "fullscreen": "Mode plein écran",
+    "help": "Cette aide",
+    "quit": "Quitter",
+    "footer": "Appuyez sur F1 pour rouvrir l’aide",
+    "hint": "F1 — aide · Tab — paramètres"
+  },
+  "toast": {
+    "language": "Langue\u00a0: {0}",
+    "palette": "Palette\u00a0: {0}",
+    "paused": "En pause",
+    "resumed": "Simulation reprise",
+    "cleared": "Sources effacées",
+    "defaults": "Paramètres réinitialisés",
+    "screenshot_saved": "Capture enregistrée\u00a0: {0}",
+    "screenshot_failed": "Impossible d’enregistrer la capture",
+    "particles": "Particules\u00a0: {0}",
+    "welcome": "Cliquez n’importe où pour créer une source de gravité",
+    "quality": "Qualité graphique\u00a0: {0}"
+  },
+  "cli": {
+    "usage": "Utilisation\u00a0: {0} [options]",
+    "lang": "langue de l’interface ({0})",
+    "particles": "nombre de particules ({0}–{1})",
+    "fullscreen": "démarrer en plein écran",
+    "list_languages": "liste des langues disponibles",
+    "version": "afficher la version",
+    "help": "afficher cette aide",
+    "unknown_option": "Option inconnue\u00a0: {0}",
+    "bad_value": "Valeur invalide pour {0}\u00a0: {1}",
+    "unknown_language": "Langue inconnue\u00a0: {0}"
+  },
+  "error": {
+    "glfw_init": "Impossible d’initialiser GLFW",
+    "window": "Impossible de créer la fenêtre (OpenGL 3.3 requis)",
+    "glew": "Impossible d’initialiser GLEW",
+    "fatal": "Erreur critique\u00a0: {0}",
+    "assets": "Ressources du programme introuvables (dossiers shaders, locales, fonts)"
+  }
+}

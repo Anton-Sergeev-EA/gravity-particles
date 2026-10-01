@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "code": "zh",
+    "name": "中文",
+    "english_name": "Chinese (Simplified)",
+    "group_separator": ",",
+    "decimal_separator": ".",
+    "grouping": "3",
+    "group_min_digits": "4"
+  },
+  "app": {
+    "title": "引力粒子",
+    "tagline": "交互式引力模拟"
+  },
+  "hud": {
+    "fps": "FPS",
+    "particles": "粒子",
+    "sources": "引力源",
+    "paused": "已暂停"
+  },
+  "panel": {
+    "title": "设置",
+    "language": "语言",
+    "simulation": "模拟",
+    "particles": "粒子数量",
+    "gravity": "引力强度",
+    "visual": "视觉效果",
+    "bloom": "辉光",
+    "size": "粒子大小",
+    "palette": "调色板",
+    "actions": "操作",
+    "hide_hint": "Tab — 隐藏面板",
+    "show": "设置",
+    "graphics": "图形",
+    "quality": "画质",
+    "trails": "拖尾",
+    "lensing": "引力透镜",
+    "cinematic": "电影级特效"
+  },
+  "palette": {
+    "cosmic": "宇宙",
+    "neon": "霓虹",
+    "rainbow": "彩虹",
+    "fire": "火焰"
+  },
+  "quality": {
+    "low": "低",
+    "medium": "中",
+    "high": "高",
+    "ultra": "极致"
+  },
+  "action": {
+    "explode": "爆炸",
+    "clear": "清除引力源",
+    "pause": "暂停",
+    "resume": "继续",
+    "screenshot": "截图",
+    "fullscreen": "全屏",
+    "windowed": "窗口模式",
+    "defaults": "恢复默认设置",
+    "help": "帮助",
+    "close": "关闭"
+  },
+  "key": {
+    "lmb": "左键",
+    "lmb_hold": "按住左键拖动",
+    "rmb": "右键",
+    "space": "空格",
+    "esc": "Esc"
+  },
+  "help": {
+    "title": "操作说明",
+    "add_source": "添加引力源",
+    "drag_source": "拖动引力源",
+    "clear": "清除引力源",
+    "explode": "粒子爆炸",
+    "palette": "切换调色板",
+    "pause": "暂停 / 继续",
+    "panel": "显示 / 隐藏设置",
+    "language": "下一种语言",
+    "screenshot": "保存截图",
+    "fullscreen": "全屏模式",
+    "help": "本帮助",
+    "quit": "退出",
+    "footer": "按 F1 可再次打开帮助",
+    "hint": "F1 — 帮助 · Tab — 设置"
+  },
+  "toast": {
+    "language": "语言：{0}",
+    "palette": "调色板：{0}",
+    "paused": "已暂停",
+    "resumed": "模拟已继续",
+    "cleared": "引力源已清除",
+    "defaults": "设置已恢复默认",
+    "screenshot_saved": "截图已保存：{0}",
+    "screenshot_failed": "截图保存失败",
+    "particles": "粒子：{0}",
+    "welcome": "点击任意位置即可创建引力源",
+    "quality": "画质：{0}"
+  },
+  "cli": {
+    "usage": "用法：{0} [选项]",
+    "lang": "界面语言（{0}）",
+    "particles": "粒子数量（{0}–{1}）",
+    "fullscreen": "以全屏模式启动",
+    "list_languages": "列出可用语言",
+    "version": "显示版本",
+    "help": "显示此帮助",
+    "unknown_option": "未知选项：{0}",
+    "bad_value": "选项 {0} 的值无效：{1}",
+    "unknown_language": "未知语言：{0}"
+  },
+  "error": {
+    "glfw_init": "无法初始化 GLFW",
+    "window": "无法创建窗口（需要 OpenGL 3.3）",
+    "glew": "无法初始化 GLEW",
+    "fatal": "严重错误：{0}",
+    "assets": "未找到程序资源（shaders、locales、fonts 文件夹）"
+  }
+}

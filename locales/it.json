@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "code": "it",
+    "name": "Italiano",
+    "english_name": "Italian",
+    "group_separator": ".",
+    "decimal_separator": ",",
+    "grouping": "3",
+    "group_min_digits": "4"
+  },
+  "app": {
+    "title": "Particelle gravitazionali",
+    "tagline": "Simulazione gravitazionale interattiva"
+  },
+  "hud": {
+    "fps": "FPS",
+    "particles": "Particelle",
+    "sources": "Sorgenti",
+    "paused": "In pausa"
+  },
+  "panel": {
+    "title": "Impostazioni",
+    "language": "Lingua",
+    "simulation": "Simulazione",
+    "particles": "Numero di particelle",
+    "gravity": "Forza di gravità",
+    "visual": "Grafica",
+    "bloom": "Bagliore",
+    "size": "Dimensione delle particelle",
+    "palette": "Tavolozza",
+    "actions": "Azioni",
+    "hide_hint": "Tab — nascondi pannello",
+    "show": "Impostazioni",
+    "graphics": "Grafica",
+    "quality": "Qualità grafica",
+    "trails": "Scie",
+    "lensing": "Lente gravitazionale",
+    "cinematic": "Effetti cinematografici"
+  },
+  "palette": {
+    "cosmic": "Cosmo",
+    "neon": "Neon",
+    "rainbow": "Arcobaleno",
+    "fire": "Fuoco"
+  },
+  "quality": {
+    "low": "Bassa",
+    "medium": "Media",
+    "high": "Alta",
+    "ultra": "Ultra"
+  },
+  "action": {
+    "explode": "Esplosione",
+    "clear": "Rimuovi sorgenti",
+    "pause": "Pausa",
+    "resume": "Riprendi",
+    "screenshot": "Screenshot",
+    "fullscreen": "Schermo intero",
+    "windowed": "Modalità finestra",
+    "defaults": "Impostazioni predefinite",
+    "help": "Aiuto",
+    "close": "Chiudi"
+  },
+  "key": {
+    "lmb": "Clic sinistro",
+    "lmb_hold": "Trascina con clic sinistro",
+    "rmb": "Clic destro",
+    "space": "Spazio",
+    "esc": "Esc"
+  },
+  "help": {
+    "title": "Comandi",
+    "add_source": "Aggiungi una sorgente di gravità",
+    "drag_source": "Trascina la sorgente",
+    "clear": "Rimuovi le sorgenti",
+    "explode": "Esplosione di particelle",
+    "palette": "Cambia tavolozza",
+    "pause": "Pausa / riprendi",
+    "panel": "Mostra / nascondi impostazioni",
+    "language": "Lingua successiva",
+    "screenshot": "Salva screenshot",
+    "fullscreen": "Modalità schermo intero",
+    "help": "Questo aiuto",
+    "quit": "Esci",
+    "footer": "Premi F1 per riaprire l’aiuto",
+    "hint": "F1 — aiuto · Tab — impostazioni"
+  },
+  "toast": {
+    "language": "Lingua: {0}",
+    "palette": "Tavolozza: {0}",
+    "paused": "In pausa",
+    "resumed": "Simulazione ripresa",
+    "cleared": "Sorgenti rimosse",
+    "defaults": "Impostazioni ripristinate",
+    "screenshot_saved": "Screenshot salvato: {0}",
+    "screenshot_failed": "Impossibile salvare lo screenshot",
+    "particles": "Particelle: {0}",
+    "welcome": "Fai clic in un punto qualsiasi per creare una sorgente di gravità",
+    "quality": "Qualità grafica: {0}"
+  },
+  "cli": {
+    "usage": "Uso: {0} [opzioni]",
+    "lang": "lingua dell’interfaccia ({0})",
+    "particles": "numero di particelle ({0}–{1})",
+    "fullscreen": "avvia a schermo intero",
+    "list_languages": "elenca le lingue disponibili",
+    "version": "mostra la versione",
+    "help": "mostra questo aiuto",
+    "unknown_option": "Opzione sconosciuta: {0}",
+    "bad_value": "Valore non valido per {0}: {1}",
+    "unknown_language": "Lingua sconosciuta: {0}"
+  },
+  "error": {
+    "glfw_init": "Impossibile inizializzare GLFW",
+    "window": "Impossibile creare la finestra (richiesto OpenGL 3.3)",
+    "glew": "Impossibile inizializzare GLEW",
+    "fatal": "Errore critico: {0}",
+    "assets": "Risorse del programma non trovate (cartelle shaders, locales, fonts)"
+  }
+}

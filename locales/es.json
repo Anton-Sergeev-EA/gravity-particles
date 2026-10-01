@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "code": "es",
+    "name": "Español",
+    "english_name": "Spanish",
+    "group_separator": ".",
+    "decimal_separator": ",",
+    "grouping": "3",
+    "group_min_digits": "5"
+  },
+  "app": {
+    "title": "Partículas gravitatorias",
+    "tagline": "Simulación gravitatoria interactiva"
+  },
+  "hud": {
+    "fps": "FPS",
+    "particles": "Partículas",
+    "sources": "Fuentes",
+    "paused": "En pausa"
+  },
+  "panel": {
+    "title": "Ajustes",
+    "language": "Idioma",
+    "simulation": "Simulación",
+    "particles": "Número de partículas",
+    "gravity": "Fuerza de gravedad",
+    "visual": "Visualización",
+    "bloom": "Resplandor",
+    "size": "Tamaño de partículas",
+    "palette": "Paleta",
+    "actions": "Acciones",
+    "hide_hint": "Tab — ocultar panel",
+    "show": "Ajustes",
+    "graphics": "Gráficos",
+    "quality": "Calidad gráfica",
+    "trails": "Estelas",
+    "lensing": "Lente gravitacional",
+    "cinematic": "Efectos cinematográficos"
+  },
+  "palette": {
+    "cosmic": "Cosmos",
+    "neon": "Neón",
+    "rainbow": "Arcoíris",
+    "fire": "Fuego"
+  },
+  "quality": {
+    "low": "Baja",
+    "medium": "Media",
+    "high": "Alta",
+    "ultra": "Ultra"
+  },
+  "action": {
+    "explode": "Explosión",
+    "clear": "Borrar fuentes",
+    "pause": "Pausa",
+    "resume": "Reanudar",
+    "screenshot": "Captura",
+    "fullscreen": "Pantalla completa",
+    "windowed": "Modo ventana",
+    "defaults": "Restablecer ajustes",
+    "help": "Ayuda",
+    "close": "Cerrar"
+  },
+  "key": {
+    "lmb": "Clic izquierdo",
+    "lmb_hold": "Arrastrar con clic izquierdo",
+    "rmb": "Clic derecho",
+    "space": "Espacio",
+    "esc": "Esc"
+  },
+  "help": {
+    "title": "Controles",
+    "add_source": "Añadir una fuente de gravedad",
+    "drag_source": "Arrastrar la fuente",
+    "clear": "Borrar fuentes",
+    "explode": "Explosión de partículas",
+    "palette": "Cambiar paleta",
+    "pause": "Pausa / reanudar",
+    "panel": "Mostrar / ocultar ajustes",
+    "language": "Siguiente idioma",
+    "screenshot": "Guardar captura",
+    "fullscreen": "Pantalla completa",
+    "help": "Esta ayuda",
+    "quit": "Salir",
+    "footer": "Pulsa F1 para volver a abrir la ayuda",
+    "hint": "F1 — ayuda · Tab — ajustes"
+  },
+  "toast": {
+    "language": "Idioma: {0}",
+    "palette": "Paleta: {0}",
+    "paused": "En pausa",
+    "resumed": "Simulación reanudada",
+    "cleared": "Fuentes borradas",
+    "defaults": "Ajustes restablecidos",
+    "screenshot_saved": "Captura guardada: {0}",
+    "screenshot_failed": "No se pudo guardar la captura",
+    "particles": "Partículas: {0}",
+    "welcome": "Haz clic en cualquier lugar para crear una fuente de gravedad",
+    "quality": "Calidad gráfica: {0}"
+  },
+  "cli": {
+    "usage": "Uso: {0} [opciones]",
+    "lang": "idioma de la interfaz ({0})",
+    "particles": "número de partículas ({0}–{1})",
+    "fullscreen": "iniciar en pantalla completa",
+    "list_languages": "lista de idiomas disponibles",
+    "version": "mostrar la versión",
+    "help": "mostrar esta ayuda",
+    "unknown_option": "Opción desconocida: {0}",
+    "bad_value": "Valor no válido para {0}: {1}",
+    "unknown_language": "Idioma desconocido: {0}"
+  },
+  "error": {
+    "glfw_init": "No se pudo inicializar GLFW",
+    "window": "No se pudo crear la ventana (se requiere OpenGL 3.3)",
+    "glew": "No se pudo inicializar GLEW",
+    "fatal": "Error crítico: {0}",
+    "assets": "No se encontraron los recursos del programa (carpetas shaders, locales, fonts)"
+  }
+}

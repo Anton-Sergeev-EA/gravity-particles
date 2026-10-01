@@ -1,0 +1,3 @@
+#pragma once
+// Файл сгенерирован CMake из cmake/Version.h.in — не редактируйте вручную.
+#define GP_VERSION "@PROJECT_VERSION@"

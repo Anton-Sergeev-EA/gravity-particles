@@ -1,0 +1,24 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Gravity Particles
+Name[ru]=Гравитационные частицы
+Name[zh_CN]=引力粒子
+Name[hi]=गुरुत्वाकर्षण कण
+Name[es]=Partículas gravitatorias
+Name[fr]=Particules gravitationnelles
+Name[de]=Gravitationsteilchen
+Name[it]=Particelle gravitazionali
+Comment=Interactive gravity simulation
+Comment[ru]=Интерактивная гравитационная симуляция
+Comment[zh_CN]=交互式引力模拟
+Comment[hi]=इंटरैक्टिव गुरुत्वाकर्षण सिमुलेशन
+Comment[es]=Simulación gravitatoria interactiva
+Comment[fr]=Simulation gravitationnelle interactive
+Comment[de]=Interaktive Gravitationssimulation
+Comment[it]=Simulazione gravitazionale interattiva
+Exec=gravity_particles
+Icon=applications-science
+Terminal=false
+Categories=Education;Science;Physics;Graphics;
+Keywords=gravity;particles;physics;simulation;

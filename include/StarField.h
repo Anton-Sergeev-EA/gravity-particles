@@ -1,6 +1,8 @@
 #pragma once
 #include <GL/glew.h>
 
+// Звёздный фон: звёзды разного размера и цветовой температуры (от голубых
+// до оранжевых), с мерцанием; у самых ярких — дифракционные лучи.
 class StarField {
 public:
     StarField(int count, float worldW, float worldH);

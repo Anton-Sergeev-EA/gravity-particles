@@ -1,0 +1,5 @@
+{
+  "default": "ru",
+  "fallback": "ru",
+  "order": ["ru", "en", "zh", "hi", "es", "fr", "de", "it"]
+}

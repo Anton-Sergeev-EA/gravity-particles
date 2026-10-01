@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "code": "de",
+    "name": "Deutsch",
+    "english_name": "German",
+    "group_separator": ".",
+    "decimal_separator": ",",
+    "grouping": "3",
+    "group_min_digits": "4"
+  },
+  "app": {
+    "title": "Gravitationsteilchen",
+    "tagline": "Interaktive Gravitationssimulation"
+  },
+  "hud": {
+    "fps": "FPS",
+    "particles": "Teilchen",
+    "sources": "Quellen",
+    "paused": "Pausiert"
+  },
+  "panel": {
+    "title": "Einstellungen",
+    "language": "Sprache",
+    "simulation": "Simulation",
+    "particles": "Anzahl der Teilchen",
+    "gravity": "Gravitationsstärke",
+    "visual": "Darstellung",
+    "bloom": "Leuchten",
+    "size": "Teilchengröße",
+    "palette": "Farbpalette",
+    "actions": "Aktionen",
+    "hide_hint": "Tab — Panel ausblenden",
+    "show": "Einstellungen",
+    "graphics": "Grafik",
+    "quality": "Grafikqualität",
+    "trails": "Leuchtspuren",
+    "lensing": "Gravitationslinse",
+    "cinematic": "Kinoeffekte"
+  },
+  "palette": {
+    "cosmic": "Kosmos",
+    "neon": "Neon",
+    "rainbow": "Regenbogen",
+    "fire": "Feuer"
+  },
+  "quality": {
+    "low": "Niedrig",
+    "medium": "Mittel",
+    "high": "Hoch",
+    "ultra": "Ultra"
+  },
+  "action": {
+    "explode": "Explosion",
+    "clear": "Quellen entfernen",
+    "pause": "Pause",
+    "resume": "Fortsetzen",
+    "screenshot": "Screenshot",
+    "fullscreen": "Vollbild",
+    "windowed": "Fenstermodus",
+    "defaults": "Standardeinstellungen",
+    "help": "Hilfe",
+    "close": "Schließen"
+  },
+  "key": {
+    "lmb": "Linksklick",
+    "lmb_hold": "Ziehen mit linker Maustaste",
+    "rmb": "Rechtsklick",
+    "space": "Leertaste",
+    "esc": "Esc"
+  },
+  "help": {
+    "title": "Steuerung",
+    "add_source": "Gravitationsquelle hinzufügen",
+    "drag_source": "Quelle verschieben",
+    "clear": "Quellen entfernen",
+    "explode": "Teilchenexplosion",
+    "palette": "Farbpalette wechseln",
+    "pause": "Pause / Fortsetzen",
+    "panel": "Einstellungen ein-/ausblenden",
+    "language": "Nächste Sprache",
+    "screenshot": "Screenshot speichern",
+    "fullscreen": "Vollbildmodus",
+    "help": "Diese Hilfe",
+    "quit": "Beenden",
+    "footer": "Drücke F1, um die Hilfe erneut zu öffnen",
+    "hint": "F1 — Hilfe · Tab — Einstellungen"
+  },
+  "toast": {
+    "language": "Sprache: {0}",
+    "palette": "Farbpalette: {0}",
+    "paused": "Pausiert",
+    "resumed": "Simulation fortgesetzt",
+    "cleared": "Quellen entfernt",
+    "defaults": "Einstellungen zurückgesetzt",
+    "screenshot_saved": "Screenshot gespeichert: {0}",
+    "screenshot_failed": "Screenshot konnte nicht gespeichert werden",
+    "particles": "Teilchen: {0}",
+    "welcome": "Klicke irgendwohin, um eine Gravitationsquelle zu erzeugen",
+    "quality": "Grafikqualität: {0}"
+  },
+  "cli": {
+    "usage": "Verwendung: {0} [Optionen]",
+    "lang": "Sprache der Oberfläche ({0})",
+    "particles": "Anzahl der Teilchen ({0}–{1})",
+    "fullscreen": "im Vollbildmodus starten",
+    "list_languages": "verfügbare Sprachen auflisten",
+    "version": "Version anzeigen",
+    "help": "diese Hilfe anzeigen",
+    "unknown_option": "Unbekannte Option: {0}",
+    "bad_value": "Ungültiger Wert für {0}: {1}",
+    "unknown_language": "Unbekannte Sprache: {0}"
+  },
+  "error": {
+    "glfw_init": "GLFW konnte nicht initialisiert werden",
+    "window": "Fenster konnte nicht erstellt werden (OpenGL 3.3 erforderlich)",
+    "glew": "GLEW konnte nicht initialisiert werden",
+    "fatal": "Schwerwiegender Fehler: {0}",
+    "assets": "Programmressourcen nicht gefunden (Ordner shaders, locales, fonts)"
+  }
+}
