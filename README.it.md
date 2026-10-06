@@ -1,5 +1,8 @@
 # Particelle gravitazionali
 
+**Limiti:** visualizzazione artistica OpenGL con dinamica semplificata;
+non è un modello relativistico e manca un benchmark GPU/FPS indipendente.
+
 [Русский](README.md) · [English](README.en.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · **Italiano**
 
 **Una sandbox spaziale interattiva: crea buchi neri con un clic e guarda centinaia di migliaia di particelle luminose vorticare intorno a loro fino a formare galassie.**
@@ -18,8 +21,8 @@ Non serve sapere nulla di fisica o di programmazione. Basta guardare e speriment
 
 ## Cosa sa fare
 
-- **Fino a un milione di particelle contemporaneamente**, in modo fluido e in tempo reale.
-- **Buchi neri realistici**: un orizzonte degli eventi nero, un anello luminoso intorno e lo spazio che si curva (come nel film «Interstellar»).
+- Configurazioni fino a un milione di particelle; gli FPS dipendono da hardware e impostazioni.
+- **Effetti visivi di buchi neri**: un orizzonte degli eventi nero, un anello luminoso intorno e lo spazio che si curva (come nel film «Interstellar»).
 - **Galassie con bracci a spirale** che si formano da sole.
 - **Effetti spettacolari come nei videogiochi moderni**: bagliore, scie luminose dietro le particelle, adattamento morbido della luminosità, onde d’urto nelle esplosioni.
 - **4 tavolozze di colori**: Cosmo, Neon, Arcobaleno, Fuoco.

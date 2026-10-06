@@ -1,5 +1,8 @@
 # Gravitationsteilchen
 
+**Modellgrenzen:** künstlerische OpenGL-Visualisierung mit vereinfachter Dynamik;
+kein relativistisches Modell und kein unabhängig bestätigter GPU/FPS-Benchmark.
+
 [Русский](README.md) · [English](README.en.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md) · [Español](README.es.md) · [Français](README.fr.md) · **Deutsch** · [Italiano](README.it.md)
 
 **Ein interaktiver Weltraum-Sandkasten: Erschaffe Schwarze Löcher mit einem Mausklick und sieh zu, wie Hunderttausende leuchtende Teilchen um sie herum zu Galaxien wirbeln.**
@@ -18,8 +21,8 @@ Du musst nichts über Physik oder Programmierung wissen. Einfach zuschauen und a
 
 ## Was das Programm kann
 
-- **Bis zu einer Million Teilchen gleichzeitig** – flüssig und in Echtzeit.
-- **Realistische Schwarze Löcher**: ein schwarzer Ereignishorizont, ein leuchtender Ring darum und gekrümmter Raum (wie im Film „Interstellar“).
+- Konfigurationen bis zu einer Million Teilchen; FPS hängen von Hardware und Einstellungen ab.
+- **Visuelle Schwarze-Loch-Effekte**: ein schwarzer Ereignishorizont, ein leuchtender Ring darum und gekrümmter Raum (wie im Film „Interstellar“).
 - **Galaxien mit Spiralarmen**, die von selbst entstehen.
 - **Schöne Effekte wie in modernen Spielen**: Leuchten, Leuchtspuren hinter den Teilchen, sanfte Helligkeitsanpassung, Schockwellen bei Explosionen.
 - **4 Farbpaletten**: Kosmos, Neon, Regenbogen, Feuer.

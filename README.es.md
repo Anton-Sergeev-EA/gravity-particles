@@ -1,5 +1,8 @@
 # Partículas gravitatorias
 
+**Límites:** visualización artística OpenGL con dinámica simplificada;
+no es un modelo relativista y no hay un benchmark GPU/FPS independiente.
+
 [Русский](README.md) · [English](README.en.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md) · **Español** · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md)
 
 **Un arenero espacial interactivo: crea agujeros negros con un solo clic y mira cómo cientos de miles de partículas luminosas giran a su alrededor formando galaxias.**
@@ -18,8 +21,8 @@ No hace falta saber nada de física ni de programación. Basta con mirar y exper
 
 ## Qué puede hacer
 
-- **Hasta un millón de partículas a la vez**, con fluidez y en tiempo real.
-- **Agujeros negros realistas**: un horizonte de sucesos negro, un anillo luminoso a su alrededor y el espacio que se curva (como en la película «Interstellar»).
+- Configuraciones de hasta un millón de partículas; los FPS dependen del hardware y los ajustes.
+- **Efectos visuales de agujeros negros**: un horizonte de sucesos negro, un anillo luminoso a su alrededor y el espacio que se curva (como en la película «Interstellar»).
 - **Galaxias con brazos espirales** que se forman solas.
 - **Efectos espectaculares como en los videojuegos modernos**: resplandor, estelas luminosas tras las partículas, ajuste suave del brillo, ondas de choque en las explosiones.
 - **4 paletas de colores**: Cosmos, Neón, Arcoíris, Fuego.

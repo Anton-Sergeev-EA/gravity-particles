@@ -1,5 +1,8 @@
 # Particules gravitationnelles
 
+**Limites:** visualisation artistique OpenGL à dynamique simplifiée;
+pas de modèle relativiste ni de benchmark GPU/FPS indépendant.
+
 [Русский](README.md) · [English](README.en.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md) · [Español](README.es.md) · **Français** · [Deutsch](README.de.md) · [Italiano](README.it.md)
 
 **Un bac à sable spatial interactif : créez des trous noirs d’un simple clic et regardez des centaines de milliers de particules lumineuses tourbillonner autour d’eux pour former des galaxies.**
@@ -18,8 +21,8 @@ Inutile de connaître la physique ou la programmation. Il suffit de regarder et 
 
 ## Ce que fait le programme
 
-- **Jusqu’à un million de particules simultanément**, de façon fluide et en temps réel.
-- **Des trous noirs réalistes** : un horizon des événements noir, un anneau lumineux autour et l’espace qui se courbe (comme dans le film « Interstellar »).
+- Configurations jusqu’à un million de particules; les FPS dépendent du matériel et des réglages.
+- **Effets visuels de trous noirs** : un horizon des événements noir, un anneau lumineux autour et l’espace qui se courbe (comme dans le film « Interstellar »).
 - **Des galaxies à bras spiraux** qui se forment d’elles-mêmes.
 - **De beaux effets dignes des jeux vidéo modernes** : halo lumineux, traînées lumineuses derrière les particules, adaptation douce de la luminosité, ondes de choc lors des explosions.
 - **4 palettes de couleurs** : Cosmos, Néon, Arc-en-ciel, Feu.

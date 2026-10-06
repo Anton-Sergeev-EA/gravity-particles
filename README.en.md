@@ -1,5 +1,8 @@
 # Gravity Particles
 
+**Model limits:** artistic OpenGL visualization with simplified dynamics,
+not a relativistic black-hole model. No independent GPU/FPS benchmark is established.
+
 [Русский](README.md) · **English** · [中文](README.zh.md) · [हिन्दी](README.hi.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md)
 
 **An interactive space sandbox: create black holes with a single click and watch hundreds of thousands of glowing particles swirl around them into galaxies.**
@@ -18,8 +21,8 @@ You don't need to know anything about physics or programming. Just watch and exp
 
 ## What it can do
 
-- **Up to one million particles at once** — smoothly, in real time.
-- **Real-looking black holes**: a black event horizon, a glowing ring around it and space bending around it (like in the film "Interstellar").
+- Configurations up to one million particles; smoothness and FPS depend on hardware and settings.
+- **Black-hole visual effects**: a black event horizon, a glowing ring around it and space bending around it (like in the film "Interstellar").
 - **Galaxies with spiral arms** that form on their own.
 - **Beautiful effects like in modern games**: glow, light trails behind particles, smooth brightness adaptation, shockwaves on explosions.
 - **4 colour palettes**: Cosmic, Neon, Rainbow, Fire.
